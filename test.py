@@ -125,27 +125,28 @@ else:
 
 
 #Code to refine search by gender
-    gender = str(input("which category is the product in? (Mens, Womens, Boys, Girls, Kids, etc): "))
+#NOTE: this section is a WIP. The purpose of this code is to act as pseudo code until it is working.
+#     gender = str(input("which category is the product in? (Mens, Womens, Boys, Girls, Kids, etc): "))
 
-    if gender in ['mens', 'Mens']:
-        mens = driver.find_element_by_id("gender1")
-        mens.click()
-    else:
-        if gender in ['womens', 'Womens']:
-            womens = driver.find_element_by_id("gender1")
-            womens.click()
-        else:
-            if gender in ['boys', 'Boys']:
-                boys = driver.find_element_by_id("gender1")
-                boys.click()
-            else:
-                if gender in ['girls', 'Girls']:
-                    girls = driver.find_element_by_id("gender1")
-                    girls.click()
-                else:
-                    if gender in ['kids', 'Kids']:
-                        kids = driver.find_element_by_id("gender1")
-                        kids.click()
+#     if gender in ['mens', 'Mens']:
+#         mens = driver.find_element_by_id("gender1")
+#         mens.click()
+#     else:
+#         if gender in ['womens', 'Womens']:
+#             womens = driver.find_element_by_id("gender1")
+#             womens.click()
+#         else:
+#             if gender in ['boys', 'Boys']:
+#                 boys = driver.find_element_by_id("gender1")
+#                 boys.click()
+#             else:
+#                 if gender in ['girls', 'Girls']:
+#                     girls = driver.find_element_by_id("gender1")
+#                     girls.click()
+#                 else:
+#                     if gender in ['kids', 'Kids']:
+#                         kids = driver.find_element_by_id("gender1")
+#                         kids.click()
 
 #Code needed to go to desired product
 
